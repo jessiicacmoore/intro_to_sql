@@ -1,0 +1,23 @@
+<!-- Find all the robots from Star Wars. -->
+intro_to_sql=# SELECT name FROM robots
+intro_to_sql-# ;
+      name      
+----------------
+ GLaDOS
+ WALL-E
+ Marvin
+ C3PO
+ Mr. Butlertron
+ Ava
+ Deep Thought
+ R2D2
+(8 rows)
+
+
+<!-- Find the robot with an "anxious" personality. -->
+intro_to_sql=# SELECT name FROM robots WHERE personality='anxious'
+intro_to_sql-# ;
+ name 
+------
+ C3PO
+(1 row)
